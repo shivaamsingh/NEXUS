@@ -216,3 +216,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Conda
+.env
+.venv
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+
+# Data
+data/raw/
+
+# LanceDB
+*.lance
+
+# DuckDB
+*.duckdb
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

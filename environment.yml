@@ -1,0 +1,28 @@
+name: nexus
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  - pip
+
+  - pip:
+      - pandas
+      - numpy
+      - duckdb
+      - networkx
+      - pyvis
+      - neo4j
+      - lancedb
+      - sentence-transformers
+      - torch
+      - transformers
+      - PyGithub
+      - fastapi
+      - uvicorn
+      - streamlit
+      - python-dotenv
+      - requests
+      - tqdm
