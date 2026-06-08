@@ -1,0 +1,23 @@
+[project]
+name = "nexus"
+version = "0.1.0"
+description = "Technology intelligence platform"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "duckdb",
+    "networkx",
+    "neo4j",
+    "lancedb",
+    "sentence-transformers",
+    "torch",
+    "transformers",
+    "PyGithub",
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "python-dotenv",
+    "pyvis",
+    "tqdm"
+]
